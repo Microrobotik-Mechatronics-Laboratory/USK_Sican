@@ -209,8 +209,3 @@ for mus in root.iter('Thelen2003Muscle'): # kas noktaları + sarma atamaları
 
 ---
 
-## 9. Faz-2 kısa yol haritası
-
-- **(i)** Gerçek sıçan kinematiği işaretçisiz kaydedilir (DeepLabCut; Mathis 2018) → modele oturtulur.
-- **(ii)** Hamstring sarmaları ölçüme kalibre edilir; tendon boşluğu atanır (Eng 2008). Ters dinamik + Hill-tipi statik optimizasyon → kas kuvvetleri.
-- **(iii)** Kas boyu ve kuvvet, propriyoseptif afferent modelleriyle (Mileusnic 2006) ateşleme hızlarına çevrilir → omurilik/nöral çözüm.
