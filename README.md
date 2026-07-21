@@ -3,11 +3,7 @@
 **Sıçan lokomosyonunda kinematikten kas kuvvetlerine ve nöral sinyallere: açık kaynaklı bir nöromekanik altyapı**
 Deniz Çetin, Musa Dereli [, Barış Oğuz Gürses] — Ege Üniversitesi
 
-> **Hocam, bu depoyu okumak için hiçbir şey indirmenize gerek yok.** Aşağıdaki özeti, şekli ve bağlantıdaki tüm dosyaları doğrudan tarayıcıda görebilirsiniz — bunlar yalnızca birkaç yüz KB veri harcar. Tüm paketi (~3 MB) indirmek yalnızca sağ üstteki yeşil **Code ▸ Download ZIP** düğmesine basarsanız olur; ona gerek yok.
-
 ![Sıçan arka bacak modeli — tırıs döngüsünden bir kare](gorsel/rat_hindlimb_still_500.png)
-
-*Model-üretimi, kuvvet içermeyen kinematik rekonstrüksiyon (gerçek kayıt değildir). Hareketli sürüm: [gorsel/rat_hindlimb_gait.gif](gorsel/rat_hindlimb_gait.gif) — ~2.5 MB olduğundan yalnız izlemek isterseniz açın; içerik yukarıdaki karede görülüyor.*
 
 ## Özet (Türkçe)
 
@@ -32,8 +28,5 @@ Deniz Çetin, Musa Dereli [, Barış Oğuz Gürses] — Ege Üniversitesi
 | Kod (ileri/ters kinematik, moment kolu, render) | [kod/](kod/) | `.py` dosyaları metin olarak açılır |
 | Kodun çalıştırma sırası | [kod/OKU.md](kod/OKU.md) | Markdown |
 | Model + hareket dosyası | `kod/rat_hindlimb_0.2.osim`, `kod/rat_trot.mot` | metin (XML) olarak açılır |
-
-> **Neden PDF var:** Aynı belgelerin `.docx` sürümleri de depoda; ancak GitHub Word dosyalarını tarayıcıda **önizlemez** (tıklayınca iner). Okumak için yukarıdaki **PDF** bağlantılarını kullanın.
-
 ---
 *Bu çalışma ilk aşamadır: hareket ölçülmemiş, ayak yörüngesi seçilip ters kinematikle üretilmiş, kuvvet hesaplanmamıştır. Katkı, geometrisi doğrulanmış ve sıçan deneyine hazır nöromekanik altyapıdır.*
